@@ -1,0 +1,116 @@
+.jobs-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+@media screen and (min-width: 768px) {
+  .jobs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.mobile-input-container {
+  width: 100%;
+  border: 1px solid #b6c5ff;
+  display: flex;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .mobile-input-container {
+    display: none;
+  }
+}
+.mobile-search-input {
+  width: 90%;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding: 4px 10px 4px 10px;
+}
+.mobile-search-button {
+  align-self: center;
+  background-color: #2c364c;
+  flex-grow: 1;
+  padding: 4px 6px 4px 6px;
+}
+.search-icon {
+  color: #f8fafc;
+  height: 20px;
+  width: 20px;
+}
+
+.profile-filters-group-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid red;
+}
+@media screen and (min-width: 768px) {
+  .profile-filters-group-container {
+    width: 35%;
+    border: 1px solid red;
+  }
+}
+
+.filters-container {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+.break-line {
+  color: #b6c5ff;
+  border: 1px solid #f1f5f9;
+  width: 100%;
+}
+
+.jobs-details-container {
+  width: 100%;
+  /* border: 1px solid yellow; */
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-details-container {
+    width: 65%;
+  }
+}
+
+.desktop-input-container {
+  width: 50%;
+  border: 1px solid #b6c5ff;
+  display: flex;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .desktop-input-container {
+    display: none;
+  }
+}
+
+.job-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.list-container-for-jobs {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 100%;
+}
